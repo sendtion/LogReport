@@ -1,4 +1,5 @@
 # 崩溃日志上传框架
+[![](https://jitpack.io/v/sendtion/LogReport.svg)](https://jitpack.io/#sendtion/LogReport)
 
 当App崩溃的时，把崩溃信息保存到本地的同时，自动给GitHub提交崩溃issue，你只需要几句，就能完成所有配置，更多细节请了解下方
 
@@ -33,7 +34,7 @@ allprojects {
 添加依赖
 ``` java
 dependencies {
-    compile 'com.github.wenmingvs:LogReport:1.0.3'
+    implementation 'com.github.sendtion:LogReport:1.0.4'
 }
 ```
 
